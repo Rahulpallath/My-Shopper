@@ -111,7 +111,6 @@ export default function HeroSection() {
         animate={{ opacity: 0.1 }}
         transition={{ duration: 1.5, delay: 0.3 }}
         style={{ animationDelay: "2s" }}
-        className="animate-float"
       />
     </section>
   );

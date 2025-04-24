@@ -16,7 +16,7 @@ export default function LoadingScreen() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          AVANTGARDE
+          My Shopping Project
         </motion.div>
         <motion.div 
           className="text-white font-sans text-sm tracking-widest mt-2"

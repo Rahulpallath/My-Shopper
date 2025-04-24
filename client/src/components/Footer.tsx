@@ -29,7 +29,7 @@ export default function Footer() {
         >
           <motion.div variants={item}>
             <div className="mb-6">
-              <a href="#" className="font-display text-2xl tracking-wider">AVANTGARDE</a>
+              <a href="#" className="font-display text-2xl tracking-wider">My Shopping Project</a>
             </div>
             <p className="opacity-70 mb-6">
               Redefining fashion through avant-garde designs and sustainable practices. A new vision for the modern wardrobe.
@@ -146,7 +146,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm opacity-70 mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} AVANTGARDE. All rights reserved.
+              &copy; {new Date().getFullYear()} My Shopping Project. Created by Rahul Krishna. All rights reserved.
             </div>
             
             <div className="flex space-x-4 text-sm opacity-70">
