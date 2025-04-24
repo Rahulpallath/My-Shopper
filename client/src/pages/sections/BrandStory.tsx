@@ -65,7 +65,7 @@ export default function AboutMe() {
 
                 <div className="mt-8">
                   <motion.a 
-                    href="/attached_assets/Pallath_Rahul.pdf" 
+                    href="/assets/Pallath_Rahul.pdf" 
                     download="Pallath_Rahul.pdf"
                     className="bg-primary text-white py-3 px-6 rounded-lg block w-full text-center font-medium transition-all duration-300 hover:bg-primary/90 flex items-center justify-center"
                     whileHover={{ scale: 1.02 }}
