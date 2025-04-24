@@ -1,0 +1,90 @@
+                                                 Rahul Krishna Pallath
+                                          Dallas, TX 75261 • rpallath@ttu.edu• 8062830944
+
+SUMMARY
+Innovative Software Engineer with 5+ years of experience in building scalable, user-centric web applications and AI-driven
+solutions using JavaScript, TypeScript, ReactJS, and Generative Adversarial Networks (GANs). Proven expertise in frontend
+architecture, responsive design, and fairness-aware recommendation systems, with a strong focus on performance, accessibility, and
+user experience. Skilled in Agile methodologies, CI/CD pipelines, and test-driven development, delivering high-quality solutions for
+enterprise-level applications. Passionate about mentoring developers and driving multi-year design and architecture decisions.
+
+EDUCATION
+Texas Tech University, Lubbock, Texas                                                                    Aug 2023 - May 2025
+Master of Science in Computer Science                                                                                GPA: 3.88
+Relevant Coursework: Enterprise Software Architecture, Machine Learning, Software Development Lifecycle, Database Management
+and Embedded Systems.
+
+EXPERIENCE
+Texas Tech University, Lubbock, Texas
+Research Assistant
+•   Designed and developed an AI-driven educational portal using .NET, C#, JavaScript, and MySQL, enabling students to solve
+    coding problems, upload notes, and receive automated evaluations.
+•   Implemented SPRC programming for real-time coding problem evaluation and optimized system performance by 25% through
+    database indexing and API caching.
+•   Enhanced learning outcomes for 2,000+ students by integrating professor-uploaded materials and feedback tracking features.
+
+Mphasis Corporation, New York, New York
+Associate (Software Development Intern)                                                                 May 2024 – August 2024
+•   Developed ReactJS and TypeScript components for a banking platform, improving UX and engagement by 20%.
+•   Integrated third-party APIs using Postman, ensuring seamless communication between frontend and backend systems.
+•   Gained hands-on experience with CI/CD pipelines and Agile methodologies, contributing to rapid issue resolution.
+
+Deloitte Consulting, Bangalore, India
+Technology Consultant                                                                                January 2023 – August 2023
+•   Developed enterprise-level applications using Angular 14 and ReactJS, improving user engagement by 30% through
+    optimized REST API integration.
+•   Designed and implemented responsive, cross-platform interfaces for 50k+ users, ensuring seamless user experience across
+    devices.
+•   Created reusable, testable components using TypeScript and Angular, reducing development time by 35%.
+•   Collaborated with UX designers and product managers to translate wireframes into functional, pixel-perfect interfaces.
+•   Conducted unit testing using Jest and Jasmine, reducing QA-reported defects by 40%.
+
+Business Technology Analyst                                                                        August 2020 – December 2022
+•   Built client-facing applications with responsive design, ensuring accessibility and compliance with ADA standards.
+•   Developed self-contained, reusable components using ReactJS and TypeScript, enhancing maintainability and scalability.
+•   Implemented caching strategies to optimize application performance, reducing load times by 20%.
+•   Mentored junior developers on frontend best practices and Agile workflows, fostering a culture of continuous learning.
+
+Freelance Developer, Kerala, India
+Point of Sale (POS) System Developer
+•   Built a real-time order management system using Angular and TypeScript, reducing kitchen errors by 60%.
+•   Containerized applications using Docker and deployed via NGINX, reducing deployment errors by 50%.
+
+
+SKILLS
+•   Frontend: JavaScript (ES6+), TypeScript, ReactJS, Angular, HTML5, CSS3, SASS, Bootstrap, jQuery, AJAX, JSON, XML
+•   Frameworks/Libraries: React Native, RxJS, Node.js, NPM, Maven
+•   Testing: Jest, Jasmine, Selenium, Karma
+•   AI/ML: Generative Adversarial Networks (GANs), Decomposed Adversarial Learning, Neural Networks, TensorFlow, PyTorch
+•   Backend/Integration: Java, Spring Boot, REST APIs, GraphQL, MySQL
+•   Tools: Git, Docker, Jenkins, Postman, Figma
+•   Methodologies: Agile/Scrum, CI/CD, Test-Driven Development (TDD)
+
+PROJECTS
+Enterprise-Level Front-End Application
+• Tech Stack: Angular, TypeScript, HTML5, CSS3, SASS, Bootstrap, REST APIs
+• Developed and optimized an enterprise-level UI application, ensuring responsive design and ADA compliance.
+• Implemented caching strategies and authentication/authorization mechanisms, improving performance and security.
+• Collaborated closely with UX designers to conduct user research and design complex UX flows, resulting in a 15% increase in
+    user satisfaction.
+
+Movie Ticket Booking System
+• Tech Stack: Angular 15, MySQL, Spring Boot, HTML/CSS, REST APIs
+• Designed a responsive UI with Angular Material, enabling real-time seat selection and payment processing.
+• Optimized backend performance using Java/Spring Boot, achieving sub-second API response times during peak traffic.
+• Focused on consumer-grade UI/UX principles, ensuring a seamless experience for end-users.
+
+Fairness-Aware News Recommendation System
+• Tech Stack: Python, TensorFlow, PyTorch, GANs, Decomposed Adversarial Learning
+• Developed a fairness-aware news recommendation system using Generative Adversarial Networks (GANs) to mitigate bias in
+    personalized news recommendations.
+• Implemented Decomposed Adversarial Learning and Orthogonality Regularization to create bias-free user embeddings, ensuring
+    fair and diverse content recommendations.
+• Achieved a 20% improvement in fairness metrics by reducing bias related to sensitive user attributes like gender.
+• Integrated data visualization using D3.js to provide insights into recommendation fairness, improving transparency for
+    stakeholders.
+
+CERTIFICATIONS
+Angular Certification (Udemy), Complete Frontend Developer(Udemy), Responsive Web Design (freeCodeCamp), Java
+Certification(Oracle), Salesforce JavaScript Developer I, Complete Python Development(Udemy), Spring boot developer(Mphasis
+Xpand), Introduction to AWS(Udemy).

@@ -3,7 +3,6 @@ import { Switch, Route } from "wouter";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import { Toaster } from "@/components/ui/toaster";
-import CustomCursor from "@/components/CustomCursor";
 import LoadingScreen from "@/components/LoadingScreen";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -31,7 +30,6 @@ function App() {
 
   return (
     <>
-      <CustomCursor />
       {isLoading ? (
         <LoadingScreen />
       ) : (
