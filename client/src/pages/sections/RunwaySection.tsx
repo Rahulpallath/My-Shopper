@@ -15,11 +15,11 @@ export default function RunwaySection() {
             {[
               { text: "REDEFINING FASHION", className: "text-white" },
               { text: "BREAK BOUNDARIES", className: "text-primary" },
-              { text: "AVANTGARDE 2023", className: "text-white" },
+              { text: "MY SHOPPING PROJECT 2023", className: "text-white" },
               { text: "CREATIVE EXPRESSION", className: "text-secondary" },
               { text: "REDEFINING FASHION", className: "text-white" },
               { text: "BREAK BOUNDARIES", className: "text-primary" },
-              { text: "AVANTGARDE 2023", className: "text-white" },
+              { text: "MY SHOPPING PROJECT 2023", className: "text-white" },
               { text: "CREATIVE EXPRESSION", className: "text-secondary" }
             ].map((item, index) => (
               <span key={index} className={`${item.className} font-accent tracking-widest text-4xl mx-6`}>
