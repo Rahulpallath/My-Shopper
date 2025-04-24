@@ -39,7 +39,7 @@ export default function Header() {
         <div className="container mx-auto px-4 py-0 flex justify-between items-center">
           <div className="logo">
             <Link href="/" className="font-display text-2xl md:text-3xl tracking-wider">
-              AVANTGARDE
+              My Shopping Project
             </Link>
           </div>
           
