@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Mail, Phone, Instagram, Twitter, Facebook, Linkedin } from "lucide-react";
+import { MapPin, Mail, Phone, Instagram, Linkedin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
@@ -48,25 +48,23 @@ export default function ContactSection() {
     {
       icon: <MapPin className="text-primary mr-4 mt-1" size={20} />,
       title: "Visit Us",
-      content: "123 Fashion Avenue, New York, NY 10001"
+      content: "Texas Tech University, Lubbock, TX 79415"
     },
     {
       icon: <Mail className="text-primary mr-4 mt-1" size={20} />,
       title: "Email Us",
-      content: "info@avantgarde.com"
+      content: "rpallath@ttu.edu"
     },
     {
       icon: <Phone className="text-primary mr-4 mt-1" size={20} />,
       title: "Call Us",
-      content: "+1 (212) 555-8765"
+      content: "+1 (806) 283-0944"
     }
   ];
   
   const socialLinks = [
-    { icon: <Instagram size={22} />, href: "#" },
-    { icon: <Twitter size={22} />, href: "#" },
-    { icon: <Facebook size={22} />, href: "#" },
-    { icon: <Linkedin size={22} />, href: "#" }
+    { icon: <Instagram size={22} />, href: "https://www.linkedin.com/in/rahul-krishna-pallath-895602169/" },
+    { icon: <Linkedin size={22} />, href: "https://www.linkedin.com/in/rahul-krishna-pallath-895602169/" }
   ];
   
   const fadeInUp = {

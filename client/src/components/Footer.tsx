@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, Twitter, Facebook, Linkedin, ArrowRight } from "lucide-react";
+import { Instagram, Linkedin, ArrowRight } from "lucide-react";
 
 export default function Footer() {
   const container = {
@@ -36,7 +36,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <motion.a 
-                href="#" 
+                href="https://www.linkedin.com/in/rahul-krishna-pallath-895602169/" 
                 className="text-white hover:text-primary transition-colors"
                 whileHover={{ scale: 1.2 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -44,23 +44,7 @@ export default function Footer() {
                 <Instagram size={20} />
               </motion.a>
               <motion.a 
-                href="#" 
-                className="text-white hover:text-primary transition-colors"
-                whileHover={{ scale: 1.2 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <Twitter size={20} />
-              </motion.a>
-              <motion.a 
-                href="#" 
-                className="text-white hover:text-primary transition-colors"
-                whileHover={{ scale: 1.2 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <Facebook size={20} />
-              </motion.a>
-              <motion.a 
-                href="#" 
+                href="https://www.linkedin.com/in/rahul-krishna-pallath-895602169/" 
                 className="text-white hover:text-primary transition-colors"
                 whileHover={{ scale: 1.2 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
