@@ -23,14 +23,13 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-          action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
-          api_location: "" # Api source code path - set to empty if no API
-          output_location: "dist/public" # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          app_location: "/client"    # Location of your client code
+          api_location: ""           # API source code path - leave empty for just static content
+          output_location: "dist"    # Build output path - this should be "dist" for your Vite project
+          skip_app_build: false      # Set to true if you've already built the app
+          skip_api_build: true       # Skip API build since we don't have a separate API
+          is_static_export: true     # Set to true since we're serving statically built files
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
