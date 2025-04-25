@@ -1,10 +1,10 @@
 import HeroSection from "./sections/HeroSection";
 import FeaturedCollections from "./sections/FeaturedCollections";
-import RunwaySection from "./sections/RunwaySection";
+import TechMarquee from "./sections/RunwaySection";
 import ProductsGrid from "./sections/ProductsGrid";
 import ParallaxSection from "./sections/ParallaxSection";
 import AboutMe from "./sections/BrandStory";
-import Lookbook from "./sections/Lookbook";
+import TechCarousel from "./sections/Lookbook";
 import Newsletter from "./sections/Newsletter";
 import ContactSection from "./sections/ContactSection";
 
@@ -13,11 +13,11 @@ export default function Home() {
     <main>
       <HeroSection />
       <FeaturedCollections />
-      <RunwaySection />
+      <TechMarquee />
       <ProductsGrid />
       <ParallaxSection />
       <AboutMe />
-      <Lookbook />
+      <TechCarousel />
       <Newsletter />
       <ContactSection />
     </main>
