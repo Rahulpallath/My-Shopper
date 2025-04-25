@@ -7,8 +7,116 @@ export default function ProductsGrid() {
   const [activeFilter, setActiveFilter] = useState("all");
   const [visibleProducts, setVisibleProducts] = useState<Product[]>([]);
   
+  // Mock data for products since API isn't working
+  const mockProducts: Product[] = [
+    {
+      id: 1,
+      name: "Minimalist T-Shirt",
+      description: "A comfortable cotton t-shirt with a minimal design",
+      price: 29.99,
+      category: "tops",
+      imageUrl: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["white", "black", "gray"],
+      isNew: true,
+      isSale: false,
+      isLimited: false
+    },
+    {
+      id: 2,
+      name: "Structured Pants",
+      description: "Tailored pants with a modern silhouette",
+      price: 79.99,
+      category: "bottoms",
+      imageUrl: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["black", "navy", "beige"],
+      isNew: false,
+      isSale: true,
+      salePrice: 59.99,
+      isLimited: false
+    },
+    {
+      id: 3,
+      name: "Geometric Earrings",
+      description: "Modern geometric design earrings",
+      price: 39.99,
+      category: "accessories",
+      imageUrl: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["gold", "silver"],
+      isNew: false,
+      isSale: false,
+      isLimited: true
+    },
+    {
+      id: 4,
+      name: "Oversized Shirt",
+      description: "Statement oversized button-up shirt",
+      price: 69.99,
+      category: "tops",
+      imageUrl: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["white", "blue", "black"],
+      isNew: true,
+      isSale: false,
+      isLimited: false
+    },
+    {
+      id: 5,
+      name: "Woven Handbag",
+      description: "Handcrafted woven handbag with leather details",
+      price: 129.99,
+      category: "accessories",
+      imageUrl: "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["brown", "beige"],
+      isNew: false,
+      isSale: true,
+      salePrice: 99.99,
+      isLimited: false
+    },
+    {
+      id: 6,
+      name: "Wide-Leg Jeans",
+      description: "Comfortable wide-leg jeans with a vintage feel",
+      price: 89.99,
+      category: "bottoms",
+      imageUrl: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["blue", "black"],
+      isNew: false,
+      isSale: false,
+      isLimited: false
+    },
+    {
+      id: 7,
+      name: "Cashmere Sweater",
+      description: "Soft cashmere pullover in a relaxed fit",
+      price: 149.99,
+      category: "tops",
+      imageUrl: "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["gray", "navy", "beige"],
+      isNew: false,
+      isSale: false,
+      isLimited: false
+    },
+    {
+      id: 8,
+      name: "Leather Belt",
+      description: "Premium leather belt with minimalist buckle",
+      price: 49.99,
+      category: "accessories",
+      imageUrl: "https://images.unsplash.com/photo-1603252109303-2751441dd157?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      colors: ["brown", "black"],
+      isNew: false,
+      isSale: false,
+      isLimited: false
+    }
+  ];
+  
   const { data: products, isLoading } = useQuery<Product[]>({
     queryKey: ["/api/products"],
+    queryFn: async () => {
+      // Simulate API response with mock data
+      return new Promise(resolve => {
+        setTimeout(() => resolve(mockProducts), 500);
+      });
+    }
   });
   
   useEffect(() => {

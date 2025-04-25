@@ -7,8 +7,60 @@ export default function FeaturedCollections() {
   const [activeFilter, setActiveFilter] = useState("all");
   const [visibleCollections, setVisibleCollections] = useState<Collection[]>([]);
   
+  // Mock data for collections since API isn't working
+  const mockCollections: Collection[] = [
+    {
+      id: 1,
+      name: "Summer Essentials",
+      description: "Lightweight pieces for the warmer months",
+      category: "summer",
+      imageUrl: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      id: 2,
+      name: "Winter Collection",
+      description: "Cozy and stylish for the cold season",
+      category: "winter",
+      imageUrl: "https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      id: 3,
+      name: "Limited Edition Series",
+      description: "Exclusive designs with limited availability",
+      category: "limited",
+      imageUrl: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      id: 4,
+      name: "Urban Streetwear",
+      description: "Modern designs for the city lifestyle",
+      category: "summer",
+      imageUrl: "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      id: 5,
+      name: "Autumn Trends",
+      description: "Transitional pieces for the fall season",
+      category: "winter",
+      imageUrl: "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      id: 6,
+      name: "Designer Collaboration",
+      description: "Special pieces from our designer partnership",
+      category: "limited",
+      imageUrl: "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    }
+  ];
+  
   const { data: collections, isLoading } = useQuery<Collection[]>({
     queryKey: ["/api/collections"],
+    queryFn: async () => {
+      // Simulate API response with mock data
+      return new Promise(resolve => {
+        setTimeout(() => resolve(mockCollections), 500);
+      });
+    }
   });
   
   useEffect(() => {

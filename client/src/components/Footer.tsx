@@ -59,11 +59,8 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { name: "Collections", href: "#collections" },
-                { name: "Lookbook", href: "#lookbook" },
-                { name: "Our Story", href: "#about" },
-                { name: "Sustainability", href: "#" },
-                { name: "Press", href: "#" },
-                { name: "Careers", href: "#" }
+                { name: "Technologies", href: "#technologies" },
+                { name: "About Me", href: "#about" }
               ].map(link => (
                 <li key={link.name}>
                   <motion.a 
@@ -83,11 +80,9 @@ export default function Footer() {
             <h3 className="font-medium text-lg mb-6">Customer Care</h3>
             <ul className="space-y-3">
               {[
-                { name: "Shipping & Returns", href: "#" },
-                { name: "FAQ", href: "#" },
-                { name: "Size Guide", href: "#" },
-                { name: "Care Instructions", href: "#" },
-                { name: "Contact Us", href: "#contact" }
+                { name: "Contact Me", href: "#contact" },
+                { name: "Portfolio", href: "#technologies" },
+                { name: "Skills", href: "#about" }
               ].map(link => (
                 <li key={link.name}>
                   <motion.a 

@@ -4,8 +4,6 @@ import TechMarquee from "./sections/RunwaySection";
 import ProductsGrid from "./sections/ProductsGrid";
 import ParallaxSection from "./sections/ParallaxSection";
 import AboutMe from "./sections/BrandStory";
-import TechCarousel from "./sections/Lookbook";
-import Newsletter from "./sections/Newsletter";
 import ContactSection from "./sections/ContactSection";
 
 export default function Home() {
@@ -17,8 +15,6 @@ export default function Home() {
       <ProductsGrid />
       <ParallaxSection />
       <AboutMe />
-      <TechCarousel />
-      <Newsletter />
       <ContactSection />
     </main>
   );
