@@ -1,13 +1,35 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/js/*"]
-  },
   "routes": [
+    {
+      "route": "/assets/*.js",
+      "headers": {
+        "Content-Type": "application/javascript"
+      }
+    },
+    {
+      "route": "/assets/*.css",
+      "headers": {
+        "Content-Type": "text/css"
+      }
+    },
     {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
     }
-  ]
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/favicon.svg"]
+  },
+  "mimeTypes": {
+    ".js": "application/javascript",
+    ".mjs": "application/javascript",
+    ".css": "text/css",
+    ".html": "text/html",
+    ".svg": "image/svg+xml"
+  },
+  "platform": {
+    "apiRuntime": "node:18"
+  }
 }
