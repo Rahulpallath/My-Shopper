@@ -19,23 +19,6 @@ jobs:
         with:
           submodules: true
       
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-      
-      - name: Install dependencies
-        run: |
-          cd client
-          npm install
-          npm install -D @types/node vite
-      
-      - name: Build client
-        run: |
-          cd client
-          # Skip TypeScript checking and directly use Vite build
-          node_modules/.bin/vite build
-      
       - name: Deploy to Azure Static Web Apps
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -43,9 +26,10 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/client"
+          app_location: "/simple-static"
           api_location: ""
-          output_location: "dist"
+          output_location: ""
+          skip_app_build: true
           deployment_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           skip_deploy_on_missing_secrets: true
 
