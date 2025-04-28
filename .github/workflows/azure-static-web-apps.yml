@@ -36,22 +36,18 @@ jobs:
           
       - name: Copy config files to dist
         run: |
-          cp azure-deploy/staticwebapp.config.json azure-deploy/dist/
           cp staticwebapp.config.json azure-deploy/dist/
-          ls -la azure-deploy/dist/
           
       - name: Deploy to Azure Static Web Apps
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          azure_static_web_apps_api_token: ad4b29ef6213fca3e98e860377620aae29497ba45771142b1534742c2f0356fa06-20bc1997-ae13-42d2-ade4-78ace57381fc01e13260e4c5811e
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/azure-deploy"
+          app_location: "azure-deploy"
           output_location: "dist"
           skip_app_build: true
-          deployment_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          skip_deploy_on_missing_secrets: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -62,8 +58,6 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          azure_static_web_apps_api_token: ad4b29ef6213fca3e98e860377620aae29497ba45771142b1534742c2f0356fa06-20bc1997-ae13-42d2-ade4-78ace57381fc01e13260e4c5811e
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "close"
-          deployment_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          skip_deploy_on_missing_secrets: true
