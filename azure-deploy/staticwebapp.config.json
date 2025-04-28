@@ -1,6 +1,18 @@
 {
   "routes": [
     {
+      "route": "/assets/*.js",
+      "headers": {
+        "Content-Type": "application/javascript"
+      }
+    },
+    {
+      "route": "/assets/*.css",
+      "headers": {
+        "Content-Type": "text/css"
+      }
+    },
+    {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
@@ -8,6 +20,12 @@
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/*.{png,jpg,gif,ico}", "/*.{css,scss,js}"]
+    "exclude": ["/assets/*", "/favicon.svg"]
+  },
+  "mimeTypes": {
+    ".js": "application/javascript",
+    ".css": "text/css",
+    ".html": "text/html",
+    ".svg": "image/svg+xml"
   }
 }
