@@ -1,0 +1,181 @@
+My Shopping Project
+COLLECTIONS
+SHOP
+ABOUT
+LOOKBOOK
+CONTACT
+
+2
+Fashion model in stylish outfit
+REDEFINE
+YOUR
+STYLE
+Experience our 2023 collection that pushes boundaries and challenges conventional fashion norms.
+
+SHOP NOW
+EXPLORE
+Featured Collections
+Explore our latest collections designed to break boundaries and redefine modern fashion aesthetics.
+
+ALL
+SUMMER
+WINTER
+LIMITED EDITION
+Summer Essentials
+Summer Essentials
+Lightweight pieces for the warmer months
+
+VIEW COLLECTION
+Winter Collection
+Winter Collection
+Cozy and stylish for the cold season
+
+VIEW COLLECTION
+Limited Edition Series
+Limited Edition Series
+Exclusive designs with limited availability
+
+VIEW COLLECTION
+Urban Streetwear
+Urban Streetwear
+Modern designs for the city lifestyle
+
+VIEW COLLECTION
+Autumn Trends
+Autumn Trends
+Transitional pieces for the fall season
+
+VIEW COLLECTION
+Designer Collaboration
+Designer Collaboration
+Special pieces from our designer partnership
+
+VIEW COLLECTION
+Built With Modern Stack
+React
+TypeScript
+Tailwind
+Framer Motion
+Express
+PostgreSQL
+Drizzle ORM
+Node.js
+React
+TypeScript
+Tailwind
+Framer Motion
+Express
+PostgreSQL
+Drizzle ORM
+Node.js
+Featured Products
+Discover our most coveted pieces crafted with premium materials and avant-garde designs.
+
+ALL
+TOPS
+BOTTOMS
+ACCESSORIES
+Minimalist T-ShirtQUICK VIEW
+NEW
+Minimalist T-Shirt
+$29.99
+Structured PantsQUICK VIEW
+SALE
+Structured Pants
+$79.99$59.99
+Geometric EarringsQUICK VIEW
+LIMITED
+Geometric Earrings
+$39.99
+Oversized ShirtQUICK VIEW
+NEW
+Oversized Shirt
+$69.99
+Woven HandbagQUICK VIEW
+SALE
+Woven Handbag
+$129.99$99.99
+Wide-Leg JeansQUICK VIEW
+Wide-Leg Jeans
+$89.99
+Cashmere SweaterQUICK VIEW
+Cashmere Sweater
+$149.99
+Leather BeltQUICK VIEW
+Leather Belt
+$49.99
+VIEW ALL PRODUCTS
+Redefining Boundaries
+Our designs challenge conventional fashion norms, pushing creativity to new horizons. Experience clothing that's both art and function.
+
+DISCOVER OUR STORY
+Technical Skills
+Frontend
+JavaScript (ES6+)
+TypeScript
+ReactJS
+Angular
+UI/UX
+Responsive Design
+CSS3/SASS
+Tailwind CSS
+Framer Motion
+Backend
+Node.js
+Spring Boot
+REST APIs
+GraphQL
+Download Resume
+About Me
+I'm Rahul Krishna, a passionate Software Engineer with 5+ years of experience in building scalable, user-centric web applications and AI-driven solutions. This project showcases my expertise in modern React development, demonstrating advanced concepts and best practices in frontend architecture.
+
+This shopping platform was built with React, Tailwind CSS, and Framer Motion to demonstrate responsive design principles and modern UI patterns. The backend utilizes Express with PostgreSQL integration via Drizzle ORM to provide a complete fullstack implementation.
+
+Throughout my career, I've focused on creating accessible, performant applications with thoughtful UX and clean, maintainable code. I enjoy solving complex problems and staying up-to-date with the latest web technologies and best practices.
+
+ReactJS
+TypeScript
+Tailwind CSS
+Express
+PostgreSQL
+Drizzle ORM
+Framer Motion
+Responsive Design
+5+
+Years Experience
+20+
+Projects Completed
+12
+Certifications
+Get In Touch
+Looking for a software engineer who can transform caffeine into code with remarkable efficiency? You've found your match! With my 5+ years of crafting scalable, user-centric applications, I'm like a Swiss Army knife for your tech stack—except I won't break when you need me most. My React components are so clean they practically review themselves, and my TypeScript is so strictly typed it makes TypeScript itself blush. I'm fluent in frontend, backend, and can translate "impossible deadline" into "challenge accepted" faster than you can say "production bug."
+
+Visit Us
+Texas Tech University, Lubbock, TX 79415
+
+Email Us
+rpallath@ttu.edu
+
+Call Us
++1 (806) 283-0944
+
+My Shopping Project
+Redefining fashion through avant-garde designs and sustainable practices. A new vision for the modern wardrobe.
+
+Quick Links
+Collections
+Technologies
+About Me
+Customer Care
+Contact Me
+Portfolio
+Skills
+Newsletter
+Sign up to receive updates on new collections and exclusive events.
+
+Your email
+
+© 2025 My Shopping Project. Created by Rahul Krishna. All rights reserved.
+Privacy Policy
+Terms of Service
+Cookies Policy
