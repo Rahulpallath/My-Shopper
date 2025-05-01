@@ -1,5 +1,5 @@
 {
-  "name": "my-shopper",
+  "name": "my-shopper-portfolio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -12,7 +12,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
-    "framer-motion": "^10.16.5"
+    "framer-motion": "^10.16.5",
+    "lucide-react": "^0.268.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.1",

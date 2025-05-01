@@ -1,39 +1,46 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { motion } from 'framer-motion'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import HeroSection from './components/HeroSection'
-import TechStack from './components/TechStack'
-import ProductsSection from './components/ProductsSection'
-import CollectionsSection from './components/CollectionsSection'
-import { motion } from 'framer-motion'
+import HeroSection from './pages/sections/HeroSection'
+import TechMarquee from './pages/sections/RunwaySection'
+import ProductsGrid from './pages/sections/ProductsGrid'
+import FeaturedCollections from './pages/sections/FeaturedCollections'
+import ParallaxSection from './pages/sections/ParallaxSection'
+import LoadingScreen from './components/LoadingScreen'
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      
-      <main className="flex-grow">
-        <HeroSection />
-        
-        <motion.section 
-          className="py-12"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-        >
-          <div className="container text-center">
-            <h2 className="mb-8 text-3xl font-bold">Technology Showcase</h2>
-            <TechStack />
-          </div>
-        </motion.section>
-        
-        <ProductsSection />
-        
-        <CollectionsSection />
-      </main>
-      
-      <Footer />
-    </div>
+    <>
+      {isLoading ? (
+        <LoadingScreen />
+      ) : (
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          
+          <main className="flex-grow">
+            <HeroSection />
+            <TechMarquee />
+            <ProductsGrid />
+            <ParallaxSection />
+            <FeaturedCollections />
+          </main>
+          
+          <Footer />
+        </div>
+      )}
+    </>
   )
 }
 
